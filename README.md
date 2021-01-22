@@ -1,5 +1,4 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/hexlet-boilerplates/nodejs-package/workflows/Node%20CI/badge.svg)](https://github.com/SivolonskySergey/frontend-project-lvl1/actions)
-<a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
-![superlint](https://docs.github.com/assets/images/help/repository/actions-workflow-status-badge.png)
-![superlinter](https://github.com/actions/hello-world/workflows/Greet%20Everyone/badge.svg)
+[![Maintainability](https://api.codeclimate.com/v1/badges/f7bb8115f7523fe1642d/maintainability)](https://codeclimate.com/github/SivolonskySergey/frontend-project-lvl1/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/f7bb8115f7523fe1642d/test_coverage)](https://codeclimate.com/github/SivolonskySergey/frontend-project-lvl1/test_coverage)
