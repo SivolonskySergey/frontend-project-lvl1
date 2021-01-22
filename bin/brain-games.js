@@ -1,5 +1,4 @@
 #!/usr/bin/env node
 
-import _ from "lodash";
+import { readline, userName, hi } from '../src/cli.js';
 
-console.log('Welcome to the Brain Games!');
