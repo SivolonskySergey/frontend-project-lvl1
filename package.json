@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "type": "module",
   "description": "[![Actions Status](https://github.com/SivolonskySergey/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/SivolonskySergey/frontend-project-lvl1/actions)",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx jest"
   },
   "repository": {
     "type": "git",
@@ -22,7 +21,10 @@
   },
   "homepage": "https://github.com/SivolonskySergey/frontend-project-lvl1#readme",
   "bin": {
-    "brain-games": "bin/brain-games.js"
+    "brain-games": "bin/games/brain-games.js",
+    "brain-even": "bin/games/brain-even.js",
+    "brain-calc": "bin/games/brain-calc.js",
+    "brain-gcd": "bin/games/brain-gcd.js"
   },
   "dependencies": {
     "eslint-plugin-jest": "^24.1.3",

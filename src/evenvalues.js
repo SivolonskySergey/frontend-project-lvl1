@@ -1,14 +1,16 @@
+import readlineSync from 'readline-sync';
+import isNumberEven from './isEven.js';
+import userName from './cli.js';
 
+const game = (arr) => {
 
-const gameLogic = (arr1, [arr2, operators]) => {
-
-	console.log('What is the result of the expression?');
+	console.log('Answer "yes" if the number is even, otherwise answer "no".');
 	let succes = 0;
 
-  for (let i = 0; i < operators.length;) {
+  for (let i = 0; i < arr.length;) {
 
-	let correctAnswer = `${inputCorrectAnswer}`;
-    const question1 = console.log(`Question: ${inputQuestion}`);
+	let correctAnswer = `${isNumberEven(arr[i])}`;
+    const question1 = console.log(`Question: ${arr[i]}`);
 	let userAnswer = readlineSync.question(`Your answer: `);
 
 
@@ -28,4 +30,4 @@ const gameLogic = (arr1, [arr2, operators]) => {
 	};
 };
 
-export default gameLogic;
+export default game;
