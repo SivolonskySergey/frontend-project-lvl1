@@ -9,6 +9,7 @@ const getRandomOperators = (arr, index) => {
 	for (let i = 0; i < index; i += 1) {
 
 operators[i] = arr[Math.floor(Math.random() * index)];
+	
 	};
 	return operators;
 };

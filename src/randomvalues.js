@@ -10,4 +10,7 @@ for (let i = 0; i < length;) {
 return arr;
 };
 
+//const testo = randomArray(3);
+//console.log(testo);
+
 export default randomArray;
