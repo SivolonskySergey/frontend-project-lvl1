@@ -1,30 +1,29 @@
-import readlineSync from 'readline-sync';
-import {getComparator} from '../index.js';
-import _ from 'lodash';
-import isNumberPrime from '../isPrime.js';
+import getRandomNumber from '../utils.js';
+import runGame from '../engine.js';
 
-const processGame = () => {
-	
-	const compare = getComparator();
-	
-	while (true) {
-	
-		const num = _.random(2, 1000);
-		
-		console.log(`Answer "yes" if given number is prime. Otherwise answer "no".`); 
-		console.log(`Question: ${num}`);
-		const rightAnswer = isNumberPrime(num);
-		const userAnswer = readlineSync.question(`Your answer: `);
+const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
-		const compareResult = compare(rightAnswer, userAnswer);
-
-		if (compareResult === 'failed') {
-			break;
-		} if (compareResult === 'success') {
-			break;
-		} 
-	};
+const isPrime = (num) => {
+  if (num < 2) {
+    return false;
+  }
+  for (let i = 2; i <= Math.sqrt(num); i += 1) {
+    if (num % i === 0) {
+      return false;
+    }
+  }
+  return true;
 };
 
-export default processGame;
-  
+const generateGameConditions = () => {
+  const question = getRandomNumber();
+  const answer = isPrime(question) ? 'yes' : 'no';
+  return [String(question), answer];
+};
+
+const exportFunctions = {
+  isPrime,
+  run: () => runGame(description, generateGameConditions),
+};
+
+export default exportFunctions;
