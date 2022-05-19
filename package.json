@@ -26,7 +26,7 @@
   "homepage": "https://github.com/SivolonskySergey/frontend-project-lvl1#readme",
   "dependencies": {
     "@hexlet/pairs": "^1.1.1",
-    "eslint-plugin-jest": "^24.1.3",
+    "eslint-plugin-jest": "^24.7.0",
     "lodash": "^4.17.20",
     "readline-sync": "^1.4.10"
   },
