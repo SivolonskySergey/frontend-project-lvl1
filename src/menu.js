@@ -7,7 +7,6 @@ import gamePrime from './games/prime.js';
 
 export default () => {
   console.log('Welcome to the Brain Games!');
-
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${userName}!\n`);
 

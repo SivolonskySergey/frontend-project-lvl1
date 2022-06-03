@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Jun  3 01:56:37 2022
+# Make data base, printed on Sat Jun  4 03:28:25 2022
 
 # Variables
 
@@ -21,7 +21,7 @@ NO_AT_BRIDGE = 1
 # environment
 SNAP_INSTANCE_KEY = 
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-0d91dafe-83f6-4dcc-b7ac-5706e6fdb251.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-192dde63-11a6-4dfc-b2dc-0cbf38946581.sock
 # environment
 LC_NAME = en_US.UTF-8
 # environment
@@ -85,7 +85,7 @@ APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
 MFLAGS = -pqrR
 # environment
-SSH_AUTH_SOCK = /tmp/ssh-XXXXXXi5rCvt/agent.1053
+SSH_AUTH_SOCK = /tmp/ssh-XXXXXXcCl6IC/agent.1083
 # default
 .SHELLFLAGS := -c
 # environment
@@ -103,7 +103,7 @@ SNAP_REEXEC =
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 1896
+VSCODE_PID = 1846
 # environment
 XDG_SESSION_TYPE = x11
 # automatic
@@ -111,7 +111,7 @@ XDG_SESSION_TYPE = x11
 # environment
 BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
 # environment
-SESSION_MANAGER = local/sergey-modern15a4m:@/tmp/.ICE-unix/1002,unix/sergey-modern15a4m:/tmp/.ICE-unix/1002
+SESSION_MANAGER = local/sergey-modern15a4m:@/tmp/.ICE-unix/1033,unix/sergey-modern15a4m:/tmp/.ICE-unix/1033
 # automatic
 *F = $(notdir $*)
 # environment
@@ -207,7 +207,7 @@ SNAP_CONTEXT = lk3wxtA7aSewx7oK0w_nC7NrUe0TB_eiU4yIwjHjpRMf0lNdVGzQ
 # environment
 LC_MEASUREMENT = en_US.UTF-8
 # environment
-SSH_AGENT_PID = 1054
+SSH_AGENT_PID = 1084
 # environment
 _ = /usr/bin/make
 # environment
@@ -275,13 +275,14 @@ SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd
 
 # Directories
 
-# . (device 66310, inode 9308317): 13 files, no impossibilities.
+# . (device 66310, inode 9308317): 14 files, no impossibilities.
 
-# 13 files, no impossibilities in 1 directories.
+# 14 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
 # No implicit rules.
+ 
 
 # Files
 
@@ -289,20 +290,20 @@ start:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 5):
-	node src/bin/brain-games.js
+#  recipe to execute (from 'Makefile', line 4):
+	node bin/brain-games.js
 
 lint:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 11):
+#  recipe to execute (from 'Makefile', line 10):
 	npx eslint .
 
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-05-17 02:57:25.235119051
+#  Last modified 2022-06-03 03:28:02.796398739
 #  File has been updated.
 #  Successfully updated.
 
@@ -323,14 +324,14 @@ publish:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 8):
+#  recipe to execute (from 'Makefile', line 7):
 	npm publish --dry-run
 
 test:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 14):
+#  recipe to execute (from 'Makefile', line 13):
 	npx jest
 
 install:
@@ -338,7 +339,7 @@ install:
 #  Modification time never checked.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 2):
-	npm install
+	npm ci
 
 # files hash-table stats:
 # Load=9/1024=1%, Rehash=0, Collisions=0/19=0%
@@ -348,12 +349,12 @@ install:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 23 / storage = 205 B / avg = 8 B
-# current buf: size = 8162 B / used = 205 B / count = 23 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 24 / storage = 209 B / avg = 8 B
+# current buf: size = 8162 B / used = 209 B / count = 24 / avg = 8 B
 
-# strcache performance: lookups = 32 / hit rate = 28%
+# strcache performance: lookups = 33 / hit rate = 27%
 # hash-table stats:
-# Load=23/8192=0%, Rehash=0, Collisions=0/32=0%
-# Finished Make data base on Fri Jun  3 01:56:37 2022
+# Load=24/8192=0%, Rehash=0, Collisions=0/33=0%
+# Finished Make data base on Sat Jun  4 03:28:25 2022
 
  
