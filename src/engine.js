@@ -5,6 +5,10 @@ const attemptsCount = 3;
 const runGame = (description, generateGameConditions) => {
   console.log(`${description}\n`);
 
+  const userName = readlineSync.question('May I have your name? ');
+  console.log(`Hello, ${userName}!\n`);
+
+
   for (let i = 0; i < attemptsCount; i += 1) {
     const [question, correctAnswer] = generateGameConditions();
     console.log(`Question: ${question}`);
