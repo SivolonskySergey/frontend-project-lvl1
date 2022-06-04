@@ -2,17 +2,28 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target 'all'.  Stop.
 
 # GNU Make 4.3
+ 
 # Built for x86_64-pc-linux-gnu
+ 
 # Copyright (C) 1988-2020 Free Software Foundation, Inc.
+ 
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+ 
 # This is free software: you are free to change and redistribute it.
+ 
 # There is NO WARRANTY, to the extent permitted by law.
+ 
 
-# Make data base, printed on Sat Jun  4 03:28:25 2022
+ 
+# Make data base, printed on Sun Jun  5 02:08:56 2022
+ 
 
 # Variables
+ 
 
+ 
 # environment
+ 
 GDK_BACKEND = x11
 # environment
 LC_ALL = C
@@ -21,7 +32,7 @@ NO_AT_BRIDGE = 1
 # environment
 SNAP_INSTANCE_KEY = 
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-192dde63-11a6-4dfc-b2dc-0cbf38946581.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-6165a6ab-5524-425b-bd60-c2a8431a8c43.sock
 # environment
 LC_NAME = en_US.UTF-8
 # environment
@@ -75,6 +86,7 @@ XAUTHORITY = /home/sergey/.Xauthority
 # makefile
 MAKEFLAGS = pqrR
 # makefile
+ 
 CURDIR := /home/sergey/Documents/frontend-project-lvl1
 # environment
 VSCODE_PIPE_LOGGING = true
@@ -85,7 +97,7 @@ APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
 MFLAGS = -pqrR
 # environment
-SSH_AUTH_SOCK = /tmp/ssh-XXXXXXcCl6IC/agent.1083
+SSH_AUTH_SOCK = /tmp/ssh-XXXXXXSd4n4C/agent.1182
 # default
 .SHELLFLAGS := -c
 # environment
@@ -103,7 +115,7 @@ SNAP_REEXEC =
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 1846
+VSCODE_PID = 1895
 # environment
 XDG_SESSION_TYPE = x11
 # automatic
@@ -111,7 +123,7 @@ XDG_SESSION_TYPE = x11
 # environment
 BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
 # environment
-SESSION_MANAGER = local/sergey-modern15a4m:@/tmp/.ICE-unix/1033,unix/sergey-modern15a4m:/tmp/.ICE-unix/1033
+SESSION_MANAGER = local/sergey-modern15a4m:@/tmp/.ICE-unix/1132,unix/sergey-modern15a4m:/tmp/.ICE-unix/1132
 # automatic
 *F = $(notdir $*)
 # environment
@@ -207,7 +219,7 @@ SNAP_CONTEXT = lk3wxtA7aSewx7oK0w_nC7NrUe0TB_eiU4yIwjHjpRMf0lNdVGzQ
 # environment
 LC_MEASUREMENT = en_US.UTF-8
 # environment
-SSH_AGENT_PID = 1084
+SSH_AGENT_PID = 1183
 # environment
 _ = /usr/bin/make
 # environment
@@ -252,6 +264,7 @@ VSCODE_CLI = 1
 ELECTRON_NO_ATTACH_CONSOLE = 1
 # environment
 SNAP_COMMON = /var/snap/code/common
+ 
 # environment
 XDG_GREETER_DATA_DIR = /var/lib/lightdm-data/sergey
 # default
@@ -282,7 +295,6 @@ SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd
 # Implicit Rules
 
 # No implicit rules.
- 
 
 # Files
 
@@ -304,6 +316,7 @@ lint:
 Makefile:
 #  Implicit rule search has been done.
 #  Last modified 2022-06-03 03:28:02.796398739
+ 
 #  File has been updated.
 #  Successfully updated.
 
@@ -347,6 +360,7 @@ install:
 
 # No 'vpath' search paths.
 
+ 
 # No general ('VPATH' variable) search path.
 
 # strcache buffers: 1 (0) / strings = 24 / storage = 209 B / avg = 8 B
@@ -355,6 +369,6 @@ install:
 # strcache performance: lookups = 33 / hit rate = 27%
 # hash-table stats:
 # Load=24/8192=0%, Rehash=0, Collisions=0/33=0%
-# Finished Make data base on Sat Jun  4 03:28:25 2022
+# Finished Make data base on Sun Jun  5 02:08:56 2022
 
  
