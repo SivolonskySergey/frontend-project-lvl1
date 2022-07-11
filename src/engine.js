@@ -3,7 +3,6 @@ import readlineSync from 'readline-sync';
 const attemptsCount = 3;
 
 const runGame = (description, generateGameConditions) => {
-  
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${userName}!\n`);
   console.log(`${description}\n`);
