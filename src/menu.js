@@ -7,8 +7,8 @@ import gamePrime from './games/prime.js';
 
 export default () => {
   console.log('Welcome to the Brain Games!');
-  //const userName = readlineSync.question('May I have your name? ');
-  //console.log(`Hello, ${userName}!\n`);
+  const userName = readlineSync.question('May I have your name? ');
+  console.log(`Hello, ${userName}!\n`);
 
   const games = ['Even', 'Calculation', 'Greater Common Divisor', 'Progression', 'Prime'];
   const gameIndex = readlineSync.keyInSelect(games, 'Choose the game: ');

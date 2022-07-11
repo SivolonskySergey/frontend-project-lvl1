@@ -3,11 +3,10 @@ import readlineSync from 'readline-sync';
 const attemptsCount = 3;
 
 const runGame = (description, generateGameConditions) => {
-  console.log(`${description}\n`);
-
+  
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${userName}!\n`);
-
+  console.log(`${description}\n`);
 
   for (let i = 0; i < attemptsCount; i += 1) {
     const [question, correctAnswer] = generateGameConditions();

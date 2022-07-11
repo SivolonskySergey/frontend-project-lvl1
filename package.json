@@ -5,7 +5,12 @@
   "description": "[![Actions Status](https://github.com/SivolonskySergey/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/SivolonskySergey/frontend-project-lvl1/actions)",
   "main": "",
   "bin": {
-    "brain-games": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js",
+    "brain-calc": "bin/brain-calc.js",
+    "brain-gcd": "bin/brain-gcd.js",
+    "brain-prime": "bin/brain-prime.js",
+    "brain-progression": "bin/brain-prog.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

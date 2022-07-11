@@ -2,28 +2,17 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target 'all'.  Stop.
 
 # GNU Make 4.3
- 
 # Built for x86_64-pc-linux-gnu
- 
 # Copyright (C) 1988-2020 Free Software Foundation, Inc.
- 
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
- 
 # This is free software: you are free to change and redistribute it.
- 
 # There is NO WARRANTY, to the extent permitted by law.
- 
 
- 
-# Make data base, printed on Sun Jun  5 02:08:56 2022
- 
+# Make data base, printed on Mon Jul 11 13:12:19 2022
 
 # Variables
- 
 
- 
 # environment
- 
 GDK_BACKEND = x11
 # environment
 LC_ALL = C
@@ -32,7 +21,7 @@ NO_AT_BRIDGE = 1
 # environment
 SNAP_INSTANCE_KEY = 
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-6165a6ab-5524-425b-bd60-c2a8431a8c43.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-914eb252-4dab-433a-90b3-00ff97680c5e.sock
 # environment
 LC_NAME = en_US.UTF-8
 # environment
@@ -52,7 +41,7 @@ GTK3_MODULES = xapp-gtk3-module:xapp-gtk3-module
 # environment
 SNAP_INSTANCE_NAME = code
 # environment
-GDK_PIXBUF_MODULEDIR = /snap/code/97/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+GDK_PIXBUF_MODULEDIR = /snap/code/99/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -72,7 +61,7 @@ VSCODE_LOG_STACK = false
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = /home/sergey/.config/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+VSCODE_CODE_CACHE_PATH = /home/sergey/.config/Code/CachedData/30d9c6cd9483b2cc586687151bcbcd635f373630
 # environment
 XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session0
 # environment
@@ -86,7 +75,6 @@ XAUTHORITY = /home/sergey/.Xauthority
 # makefile
 MAKEFLAGS = pqrR
 # makefile
- 
 CURDIR := /home/sergey/Documents/frontend-project-lvl1
 # environment
 VSCODE_PIPE_LOGGING = true
@@ -97,7 +85,7 @@ APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
 MFLAGS = -pqrR
 # environment
-SSH_AUTH_SOCK = /tmp/ssh-XXXXXXSd4n4C/agent.1182
+SSH_AUTH_SOCK = /tmp/ssh-XXXXXXCn5dGr/agent.1161
 # default
 .SHELLFLAGS := -c
 # environment
@@ -115,7 +103,7 @@ SNAP_REEXEC =
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 1895
+VSCODE_PID = 1494
 # environment
 XDG_SESSION_TYPE = x11
 # automatic
@@ -123,7 +111,7 @@ XDG_SESSION_TYPE = x11
 # environment
 BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
 # environment
-SESSION_MANAGER = local/sergey-modern15a4m:@/tmp/.ICE-unix/1132,unix/sergey-modern15a4m:/tmp/.ICE-unix/1132
+SESSION_MANAGER = local/sergey-modern15a4m:@/tmp/.ICE-unix/1110,unix/sergey-modern15a4m:/tmp/.ICE-unix/1110
 # automatic
 *F = $(notdir $*)
 # environment
@@ -165,9 +153,9 @@ SNAP_USER_COMMON = /home/sergey/snap/code/common
 # environment
 LC_TIME = en_US.UTF-8
 # environment
-SNAP = /snap/code/97
+SNAP = /snap/code/99
 # environment
-SNAP_REVISION = 97
+SNAP_REVISION = 99
 # environment
 SNAP_REAL_HOME = /home/sergey
 # environment
@@ -213,13 +201,13 @@ MAKE_VERSION := 4.3
 # environment
 DISABLE_WAYLAND = 1
 # environment
-SNAP_DATA = /var/snap/code/97
+SNAP_DATA = /var/snap/code/99
 # environment
 SNAP_CONTEXT = lk3wxtA7aSewx7oK0w_nC7NrUe0TB_eiU4yIwjHjpRMf0lNdVGzQ
 # environment
 LC_MEASUREMENT = en_US.UTF-8
 # environment
-SSH_AGENT_PID = 1183
+SSH_AGENT_PID = 1162
 # environment
 _ = /usr/bin/make
 # environment
@@ -239,11 +227,11 @@ HOME = /home/sergey
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-9081749b-1.67.2-main.sock
+VSCODE_IPC_HOOK = /run/user/1000/vscode-9081749b-1.68.1-main.sock
 # environment
 SNAP_NAME = code
 # environment
-GSETTINGS_SCHEMA_DIR = /snap/code/97/usr/share/glib-2.0/schemas
+GSETTINGS_SCHEMA_DIR = /snap/code/99/usr/share/glib-2.0/schemas
 # environment
 XDG_SESSION_ID = 2
 # environment
@@ -253,7 +241,7 @@ PANEL_GDK_CORE_DEVICE_EVENTS = 0
 # automatic
 <F = $(notdir $<)
 # environment
-SNAP_VERSION = c3511e6c
+SNAP_VERSION = 30d9c6cd
 # default
 SUFFIXES := 
 # environment
@@ -264,13 +252,12 @@ VSCODE_CLI = 1
 ELECTRON_NO_ATTACH_CONSOLE = 1
 # environment
 SNAP_COMMON = /var/snap/code/common
- 
 # environment
 XDG_GREETER_DATA_DIR = /var/lib/lightdm-data/sergey
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink guile load
 # environment
-SNAP_USER_DATA = /home/sergey/snap/code/97
+SNAP_USER_DATA = /home/sergey/snap/code/99
 # environment
 XDG_MENU_PREFIX = xfce-
 # environment
@@ -316,7 +303,6 @@ lint:
 Makefile:
 #  Implicit rule search has been done.
 #  Last modified 2022-06-03 03:28:02.796398739
- 
 #  File has been updated.
 #  Successfully updated.
 
@@ -360,7 +346,6 @@ install:
 
 # No 'vpath' search paths.
 
- 
 # No general ('VPATH' variable) search path.
 
 # strcache buffers: 1 (0) / strings = 24 / storage = 209 B / avg = 8 B
@@ -369,6 +354,6 @@ install:
 # strcache performance: lookups = 33 / hit rate = 27%
 # hash-table stats:
 # Load=24/8192=0%, Rehash=0, Collisions=0/33=0%
-# Finished Make data base on Sun Jun  5 02:08:56 2022
+# Finished Make data base on Mon Jul 11 13:12:19 2022
 
  
